@@ -1,0 +1,15 @@
+@media only screen and(max-width:600px) {
+    body {
+        
+           
+            width:630px;
+            background-color: aqua;
+         }
+    .main_div {
+        width: 630px;
+    }
+    .divi {
+        background-color: blue;
+    }
+
+    }

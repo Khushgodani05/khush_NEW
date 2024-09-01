@@ -1,0 +1,23 @@
+@media only screen and(max-width:600px) {
+    body {
+   display: flex;
+   justify-content: flex-start;
+   background-color: brown;
+   div.main {
+     width: 500px;
+     background-color: beige;
+     height: 1500px;
+     margin-top: 0px;
+    }
+   .button {
+     width: 150px;
+   }
+   .secdiv {
+     width: 450px;
+   }
+   .trddiv {
+     display: flex;
+     flex-direction: column;
+   }
+   }
+ }

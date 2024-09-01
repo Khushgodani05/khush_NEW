@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "post_id": 1,
+        "author": "Alice",
+        "content": "Did you know? The first recorded cricket match took place in 1646 in Kent, England.",
+        "created_at": "2024-08-11T14:00:00Z"
+    },
+    {
+        "id": 2,
+        "post_id": 2,
+        "author": "Bob",
+        "content": "Cricket is the second most popular sport in the world, with over 2.5 billion fans.",
+        "created_at": "2024-08-11T15:30:00Z"
+    },
+    {
+        "id": 3,
+        "post_id": 1,
+        "author": "Charlie",
+        "content": "The longest cricket match in history lasted for 12 days between England and South Africa in 1939.",
+        "created_at": "2024-08-11T16:45:00Z"
+    },
+    {
+        "id": 4,
+        "post_id": 2,
+        "author": "Dave",
+        "content": "Sachin Tendulkar, often referred to as the 'God of Cricket,' is the only player to score 100 international centuries.",
+        "created_at": "2024-08-11T17:00:00Z"
+    },
+    {
+        "id": 5,
+        "post_id": 1,
+        "author": "Eve",
+        "content": "The highest individual score in a Test match is 400, made by Brian Lara of the West Indies in 2004.",
+        "created_at": "2024-08-11T18:15:00Z"
+    },
+    {
+        "id": 6,
+        "post_id": 2,
+        "author": "Frank",
+        "content": "The Cricket World Cup is the most-watched sporting event in the world after the FIFA World Cup.",
+        "created_at": "2024-08-11T19:20:00Z"
+    },
+    {
+        "id": 7,
+        "post_id": 1,
+        "author": "Grace",
+        "content": "Australia has won the most Cricket World Cups, with a total of 5 titles.",
+        "created_at": "2024-08-11T20:10:00Z"
+    },
+    {
+        "id": 8,
+        "post_id": 2,
+        "author": "Heidi",
+        "content": "The Ashes is a historic Test cricket series played between England and Australia since 1882.",
+        "created_at": "2024-08-11T21:05:00Z"
+    },
+    {
+        "id": 9,
+        "post_id": 1,
+        "author": "Ivan",
+        "content": "Cricket is the national sport of England, but it is most popular in India.",
+        "created_at": "2024-08-11T22:30:00Z"
+    },
+    {
+        "id": 10,
+        "post_id": 2,
+        "author": "Judy",
+        "content": "The Indian Premier League (IPL) is the most popular and lucrative T20 cricket league in the world.",
+        "created_at": "2024-08-11T23:00:00Z"
+    }
+]

@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>CARD</title>
+        <div style="background-color: antiquewhite;">
+            <a href="second.html">Banner</a>
+            <a href="first.html">Grid</a>
+            <a href="fourth.html"> Card stats</a>
+           </div>
+           <hr>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <style>
+         .headdiv {
+            display: flex;
+            width: 1358px;
+            height: 380px;
+            background-color: #F9FAFB;
+            padding: 64px 0px 0px 0px;
+            flex-direction: column;
+           }
+           .secdiv {
+            width:896px; 
+            height:128px; 
+            display :flex; 
+            justify-content:center; 
+            border-radius:8px; 
+            background-color:rgb(255, 255, 255);
+            margin-left: 230.5px;
+            margin-top: 20px;
+            box-shadow :0px 1px 3px 1px rgb(177, 171, 171);
+           }
+           .trdiv {
+            width: 296.67px;
+            height: 128px;
+            background-color: white;
+            border-radius: 8px;
+           }
+           @media only screen and(max-width:600px) {
+            .secdiv{
+                flex-direction: column;
+            }
+           }
+        </style>
+    </head>
+    <body>
+        <div class="headdiv">
+        <div style="width: 1280px; height: 84px;margin: 0px 200px;">
+           <div style="font-size: 36px; width: 896px; height: 40px;font-weight: 800;color:#111827;margin-bottom: 8px; gap: 16px;display: flex;justify-content: center;">Trusted by developers from over 80 planets</div>
+           <div style="width: 896px; height: 28px;font-size: 20px;font-weight: 400; color: rgba(107, 114, 128, 1);margin-top: 8px;display: flex;justify-content: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.</div>
+        </div>
+        <div  class=secdiv>
+        <div class="trdiv"><img src="Stat.png" alt="pepproni"></div>
+        <div class="trdiv"><img src="Stat.delivery.png" alt="24/7"></div>
+        <div class="trdiv"><img src="Stat.caloey.png" alt="delivery"></div>
+        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+.error,.error1 {
+    display: none;
+    color: red;
+    text-decoration: solid;
+  } 
+  .hide {
+    display: block;
+  } 
+  .dhide {
+    display: none;
+  }
+  .logout {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: end;
+    color: blue;
+  }
+  #exit {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(48, 165, 229);
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+  }
+  .bar img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+  }
+  .bar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+  }
+#mainpage {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    /* border: gray solid 5px; */
+    box-shadow: black 2px 2px 5px ;
+    background-color: rgb(142, 189, 203);
+}
+#loginpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 835px;
+    background-color: lightblue;
+}
+button {
+    width: 200px;
+    padding: 5px 0px;
+    border-radius: 10px;
+    background-color: blue;
+    border: white solid 5x !important;
+    color: white;
+}
+#login,#password {
+    color: white;
+    background-color: rgb(0, 98, 255) !important;
+    border: lightblue solid 1px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+h1 {
+    background-color: rgb(0, 21, 255);
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.header {
+  width: 100%;
+  position: fixed;
+}
+#quote {
+    text-align: center;
+    background-color: lightblue;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px;
+    color: rgb(24, 0, 162);
+}
+.postsite {
+    display: none;
+}
+@media only screen and (max-width:840px){
+  body {
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/34/75/42/1000_F_434754213_vIfOK8dOtsStHjKnQkxKISJkH6Ncsoxd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .post {
+    width: 350px;
+    box-shadow: white 5px 5px 20px inset;
+    height: 500px;
+  }
+  .posttitle {
+    font-size: 20px;
+  }
+  .comm {
+    font-size: 12px;
+  }
+  .bar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    align-self: center;
+  }
+  .bar img {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+  }
+}

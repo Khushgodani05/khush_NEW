@@ -1,0 +1,147 @@
+#t2 {
+    border:2px solid blue;
+    border-color: pink;
+    
+}
+.tb2 {
+    background-color: pink;
+    color:purple;
+}
+.p1 {
+    color: purple;
+    padding:0px;
+    
+}
+
+#khush_img {
+ 
+    border: 3px solid purple;
+    border-radius: 160px;
+    height: 150px;
+}
+
+html {
+    background-image: url(https://img.freepik.com/premium-photo/office-desk-workplace-with-notepad-glasses_522560-13895.jpg?w=1060);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+body {  
+    margin: 50px !important;
+    padding: 50px !important;
+ 
+}
+a {
+    color: purple ;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* a:visited {
+    color: red;
+ } */
+ a:hover {
+    color:blue !important;
+    text-decoration: solid;
+ }
+a:active{
+    background-color: purple;
+}
+ .head {
+    
+    background-color:pink;
+    color: purple;
+    text-align: center;
+    border: 2px solid purple;
+    border-radius: 10px;
+
+ }
+
+ .box {
+    background-color:pink;
+    color: purple;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-family:"Roboto", sans-serif;
+ }
+
+ .padding {
+    padding: 0px 30px;
+    font-size: 20px;
+    background-color: rgb(255, 117, 163);
+    text-align: right;
+    
+ }
+ nav {
+    position: sticky;       
+    top: 0px;
+ }
+
+ /* relative position: to move position from its normal position i.e its own position(static)
+    absolute position:to move position from and if relative not mentioned it takes HTML as relative  */
+ .div1 {
+    display: flex;
+  
+ }
+.div1 .s1 {
+    
+    flex-direction: row;
+    margin: 0px;
+    vertical-align: middle;
+}
+#index_h2 {
+    padding: 5px 0px;
+    margin: 0px;
+    text-decoration: underline;
+
+}
+.div1 div {
+    padding :5px 0px;
+
+}
+   
+.div1 .div2 {
+ 
+     background-color: plum;
+     padding-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightskyblue;
+        border-radius: 20px;
+        border: 2px solid darkblue;
+       .tb2 {
+        border: 100px solid purple;
+        background-color: plum !important;
+       }
+       #khush_img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+       }
+       .div2 .s1,.s2 {
+        font-size: 18px;
+       }
+      .box{
+      background-color: aquamarine !important;
+      font-size: 15px;
+      }
+      h2 {
+        color: plum;
+      }
+      .p1 {
+        color: blue;
+      }
+      #t2 {
+        position: static;
+      }
+      .tb2 {
+        font-size: 13px;
+
+      }
+      .iframe1 {
+        width :375px;
+      }
+     }
+}
+
+

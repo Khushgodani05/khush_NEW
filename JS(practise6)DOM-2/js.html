@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg {
+            background-color: #eee;
+            margin-bottom: 5px;
+        }
+        .item {
+            margin-bottom: 10px;
+        }
+        .error {
+            color: red;
+        }
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <input name="amount" type="text" placeholder="amount" />
+    <br/>
+
+    <form>
+        <div class="item">
+            <input name="email" type="text" placeholder="Email" />
+            <div class="error hide">Please enter email</div>
+        </div>
+        
+        <div class="item">
+            <input name="password" type="password" placeholder="Password" />
+            <div class="error hide">Please enter a password</div>
+        </div>
+
+        <button type="submit" name="login">Login</button>
+    </form>
+
+    <button data-country="us" data-lang="english" id="test">Select English</button>
+    <button data-country="india" data-lang="marathi" id="test2">Select Marathi</button>
+    <button data-country="india" data-lang="hindi" id="test3">Select Hindi</button>
+
+    <!-- <script src="strings.js"></script> -->
+    <script src="dom2.js"></script>   
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+/* ELEMENTAL SELECTOR (last priority)*/
+p {
+    background-color: yellow;
+    color: green;
+    font-size:40px;
+    text-decoration: underline dotted;
+}
+
+/* ID SELECTOR (1st priority)*/
+#h1 {
+    background-color: wheat;
+    color: red;
+}
+
+/* class selector (2nd priority) */
+.sport {
+    color: red;
+    background-color: rgba(191, 255, 0, 0.658);
+}
+
+.sport1
+{
+    background-color:aqua;
+    color: red;
+}
+

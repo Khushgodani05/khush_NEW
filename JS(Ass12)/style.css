@@ -1,0 +1,143 @@
+.secdiv {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 400px;
+  background-color:rgb(82, 201, 199);
+  border-radius: 5px;
+}
+.button :hover {
+  border: 2px solid white;
+}
+body{
+  display: flex;
+  justify-content: space-evenly; 
+  background-image: url(banking-technology-conceptisometric-illustration-bank-600nw-1945826485.webp);
+  background-size: contain;
+}
+.main{
+  width:800px;display: flex;margin-top: 20px;height: 900px;border-radius: 10px;justify-content: space-evenly;flex-direction: column;align-items: center;
+}
+.bankname {
+font-size: 50px;font-family: Arial, Helvetica, sans-serif;font-weight: 700 ; color: white;text-decoration: solid;margin-top: 0px;
+}
+.error {
+  color: red;
+  font-size: 20px;
+   width: 450px;
+   justify-content: flex-start;
+   margin-bottom: 30px;
+   display: none;
+}
+.error1 {
+  color: red;
+  font-size: 20px;
+   width: 450px;
+   justify-content: flex-start;
+   margin-bottom: 30px;
+   display: none;
+}
+.error4 {
+  color: red;
+  font-size: 20px;
+   width: 450px;
+   justify-content: flex-start;
+   margin-bottom: 30px;
+   display: none;
+}
+.error3 {
+  color: red;
+  font-size: 20px;
+   width: 450px;
+   justify-content: flex-start;
+   margin-bottom: 30px;
+   display: none;
+}
+.hide {
+  display: block;
+}
+#transhistory {
+  text-align: center;font-size: 50px;font-family:Arial, Helvetica, sans-serif;background-color: rgb(24, 106, 193);margin: 0px;color: white;
+  }
+#cctranshistory {
+    text-align: center;font-size: 50px;font-family:Arial, Helvetica, sans-serif;background-color: rgb(24, 106, 193);margin: 0px;color: white;
+    }
+#upi {
+text-align: center;font-size: 50px;font-family:Arial, Helvetica, sans-serif;background-color: rgb(24, 106, 193);
+margin-top: 0px;color: white;
+}
+#upibalance {
+    height: 60px;width: 450px;font-size: 35px;color: white;border:solid black 1px;border-radius: 5px;
+    text-align: center; vertical-align:middle;
+}
+#ccbalances {
+  height: 60px;width: 450px;font-size: 35px;color: white;border:solid black 1px;border-radius: 5px;
+  text-align: center; vertical-align:middle;
+}
+.trddiv {
+display: flex;justify-content: space-evenly;flex-wrap: wrap;height: 120px;
+}
+.button {
+background-color: rgb(24, 106, 193);height: 50px;width: 180px;font-size: 20px;color: white;border:solid black 1px;border-radius: 5px;
+}
+#cc {
+text-align: center;font-size: 50px;font-family:Arial, Helvetica, sans-serif;background-color: rgb(24, 106, 193);margin: 0px;color: white;
+}
+#pendingbalance {
+text-align: center;font-size: 20px;font-family: Arial, Helvetica, sans-serif;color:rgb(13, 50, 216);font-weight: 600;
+}
+@media only screen and (max-width:600px) {
+    body {
+   display: flex;
+   justify-content: center;
+   background-image: url(banking-technology-conceptisometric-illustration-bank-600nw-1945826485.webp);
+   background-size: contain;
+   justify-content: space-evenly;
+   flex-direction: column;
+   align-items: center;
+   height: 1600px;
+    }
+    .main {
+    display: flex;
+    width: 600px;
+ }
+   div.main {
+     width: 510px;
+  
+     height: 800px;
+     margin-top: 0px;
+    }
+   .button {
+     width: 100px;
+     font-size: 15px;
+   }
+   .secdiv {
+     width: 450px;
+   }
+   .trddiv {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+   }
+   div .secdiv ,div .trddiv {
+    width: 400px;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-around;
+   }
+   input {
+    width: 150px;
+    height: 20px;
+   }
+   div #upibalance ,div #ccbalances {
+       width: 200px;
+       font-size: 25px;
+       height: 30px;
+  }
+.error .hide ,.error1 .hide ,.error3 .hide,.error4 .hide {
+    width: 350;
+  }
+   
+ }

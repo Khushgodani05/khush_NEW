@@ -1,0 +1,62 @@
+@media only screen and (max-width:600px) {
+    body { 
+    
+        .b1 {
+            background-color:wheat;
+            width: 100px;
+            height: 100px;
+            
+        }
+        .b2 {
+            background-color: darkgreen;
+            width:100px;
+            height: 100px;
+        }
+        .parent1 {
+            border: 5px solid darkgreen;
+            height: 800px;
+            width: 800px;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            align-items: center;
+}
+        .parent2{
+            border: 5px solid darkgreen;
+            display: inline-flex;
+            flex-direction: row;
+            width: 800px;
+            flex-flow: nowrap;
+        }
+        .parent2 .box1 {
+            background-color: darkgreen;
+            color: white;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            padding:10px 5px;
+            font-weight: bold;
+        }
+        .parent3{
+            border: 5px solid darkgreen;
+            display: flex;
+            flex-direction: row;
+            width: 800px;
+            flex-flow: nowrap;
+        }
+        .parent3 .box1 {
+            background-color: darkgreen;
+            color: white;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            padding:10px 5px;
+            font-weight: bold;
+        }
+
+    }
+    
+}

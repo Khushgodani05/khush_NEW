@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.website_main {
+    width: 1400px;
+    height: 700px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+    /* align-items: center; */
+}
+.article_1 {
+    display: flex;
+    align-items: center;
+    width: 430px;
+    height: 700px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* background-color: rgb(10, 10, 10); */
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px;
+    position:sticky;
+}
+.article_1 :nth-child(1) {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 430px;
+    height: 100px;
+    }
+    .article_1 :nth-child(2) {
+    margin:50px 0px;
+    height: 200px;
+    }
+#account_img {
+    height: 100px;
+    width: 80px;
+}   
+#accimg {
+    height: 50px;
+}
+#name {
+    margin: 50px 50px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
+.naving {
+    height: 30px;
+    width: 300px;
+    /* background-color: rgb(0, 145, 255); */
+    border-radius: 20px;
+    color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+text-align: center;
+vertical-align: middle;
+box-shadow: gray 1px 1px 10px inset;
+margin-bottom: 20px;
+padding: 10px;
+}
+.article_2 {
+    width: 500px;
+    height: 700px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px;
+}
+.article_2:nth-child(1) {
+    display: flex;
+    margin-top: 20px;
+
+}
+.search_user {
+
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.search_user input{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: black;
+    border: 0.5px solid gray;
+}
+.search_user img{
+    width: 50px;
+    height: 45px;
+}
+.post {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 550px;
+    overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-color: black;
+  flex-wrap: wrap;
+}
+.post_card {
+    background-color: black;
+    height: 500px ;
+    width: 380px;
+    margin-bottom: 10px;
+border: 0.5px solid gray;
+  border-radius: 2px;
+}
+.post_card div {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post_card img {
+    height: 50px;
+    width: 50px;
+}
+.post_header {
+    display: flex;
+    align-items: center;
+}
+.post_content {
+    height: 300px;
+    width: 380px;
+    background-color: black;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.post_content img {
+    height: 300px;
+    width: 380px;
+    margin-bottom: 5px;
+}
+.post_comment {
+    height: 100px;
+    width: 380px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.post_feature img {
+    height: 30px;
+    width: 30px;
+}
+.website_a {
+      color: white;
+      text-decoration: none;
+      padding: 0px 115px;
+    }

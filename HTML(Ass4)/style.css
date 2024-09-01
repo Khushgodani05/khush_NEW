@@ -1,0 +1,70 @@
+.t1 {
+   color: black;
+   background-color: pink;
+   text-align: center;
+}
+
+#t2 {
+    border: 10pt;
+    border-color: pink;
+    
+}
+
+.tb2 {
+    background-color: pink;
+    color:purple;
+}
+
+.p1 {
+    color: purple;
+    
+}
+
+#khush_img {
+ 
+    border: 3px solid purple;
+    border-radius: 160px;
+    height: 150px;
+}
+
+html {
+    background-image: url(https://img.freepik.com/premium-photo/office-desk-workplace-with-notepad-glasses_522560-13895.jpg?w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+a {
+    color: purple ;
+    text-decoration: none;
+}
+/* a:visited {
+    color: red;
+ } */
+ a:hover {
+    color:blue ;
+ }
+ .head {
+    
+    background-color:pink;
+    color: purple;
+    text-align: center;
+    border: 2px solid purple;
+    border-radius: 10px;
+ }
+
+ .box {
+    background-color:pink;
+    color: purple;
+    border: 2px solid purple;
+    border-radius: 10px;
+ }
+
+ .padding {
+    padding: 0px 300px;
+    margin-top: 20px;
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 20px;
+
+ }

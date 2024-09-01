@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .bg {
+            background-color: #eee;
+            margin-bottom: 5px;
+        }
+        .item {
+            margin-bottom: 10px;
+        }
+        .error2 {
+            color: red;
+        }
+        .hide1 {
+            display: none;
+        } 
+        form {
+            box-shadow: 5px 5px 5px rgb(0, 166, 255);
+            background-color: lightblue;
+            width: 430px;
+            height: 190px;
+            border:1px solid rgb(0, 106, 255);
+        }
+        /* body {
+            background-image: url(banking-technology-conceptisometric-illustration-bank-600nw-1945826485.webp);background-repeat: no-repeat;background-size: contain;
+        } */
+        .bname {
+            text-align: center;background-color: rgb(23, 60, 223);font-size: 50px;color: white;font-family: Arial, Helvetica, sans-serif;font-weight: 700;margin-top: 0px;
+        }
+        #hide1div {
+            color: rgb(23, 60, 223);
+            display: none;
+        }
+    </style>
+</head>
+<body border="0px">
+
+    <section class="loginpage">
+        <div class="bname">
+            KISSAN BANK OF INDIA
+        </div>
+        <div  style="display: flex;justify-content: center; align-items: center;height: 800px; border: 0px;">
+            <form style="display: flex; align-items: center;flex-direction: column;">
+                <div class="item" style="margin-top: 20px;">
+                    <input name="email" type="text" placeholder="Enter id" style="width: 200px; height: 20px;" />
+                    <div class="error2 hide1">OOPS incorrect login-id:(:(</div>
+                </div>
+                
+                <div class="item">
+                    <input name="password" type="password" placeholder=" Enter Password" style="width: 200px; height: 20px;" />
+                    <div class="error2 hide1">OOPS incorrect password:(:(</div>
+                </div>
+                <button name="khush" type="submit">Login</button>
+            </form>
+           
+        </div>
+        
+    </section>
+
+    <section class="bankingweb hide1">
+        <div class="bankname" >KISSAN BANK OF INDIA</div>
+        <div class="part1" style="width: 90%; height: 500px;background-color: rgb(57, 159, 207);margin-top: 50px; border-radius: 5px;margin-left: 80px; display: flex;justify-content: space-around;align-items: center;">
+          <div class="secdiv">
+            <h1 id="upi">UPI</h1>
+            <div class="trddiv">
+      <input type="number" id="with" placeholder="Enter amount" >
+      <button class="button" id="play" >Withdraw money</button>
+      <div class="error">Enter a valid amount</div>
+      <input type="number"  id="deposit" placeholder="Enter amount" >
+      <button class="button" id="player">Deposit money</button>
+      <div class="error1">Enter a valid amount</div>
+      <div id="upibalance" class="button">Balance:0 </div>
+      </div>
+          </div>
+      
+          <div>
+            <div style="display: flex;flex-direction: column;">
+              <h1 id="transhistory">UPI history</h1>
+              <div id="thist" class="secdiv" style="height: 350px;width: 500px;"> </div>
+            </div>
+          </div>
+        </div> 
+      
+        <div class="part1" style="width: 90%; height: 500px;background-color: rgb(57, 159, 207);margin-top: 50px; border-radius: 5px;margin-left: 80px; display: flex;justify-content: space-around;align-items: center;">
+          <div class="secdiv">
+            <h1 id="cc" style="border-radius: 5px;">Credit Card</h1>
+            <p id="pendingbalance">Credit limit:100000</p>
+            <div class="trddiv">
+              <input type="number" id="ccpay" placeholder="Enter amount" >
+              <button class="button" id="ccplay" >Pay bill</button>
+               <div class="error3">You have no pending bill!!</div>
+      
+               <input type="number"  id="ccbuy" placeholder="Enter amount" >
+              <button class="button" id="ccplayer">Buy item</button>
+              <div class="error4">Enter a valid amount</div>
+      <div id="ccbalances" class="button">Balance:100000 </div>           
+      </div>
+         </div>
+      
+         <div>
+          <h1 id="cctranshistory" >CC history</h1>
+          <div id="ccthist" class="secdiv" style="height: 350px;width: 500px;"> </div>
+        </div>
+      </div> 
+      <div style="position: relative; margin-bottom: 0px;text-align: end;">
+        <a href="index.html"><img src="logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="logout" id="exit">
+        </div>
+    </section>
+   
+    
+    <script src="external.js"></script>  
+</body>
+</html>

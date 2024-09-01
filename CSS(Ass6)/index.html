@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <title>
+            FLEXBOX
+        </title>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+            .b1 {
+                background-color: rgb(28, 129, 230);
+                width: 100px;
+                height: 100px;
+                
+            }
+            .b2 {
+                background-color: lightblue;
+                width:100px;
+                height: 100px;
+            }
+
+            .parent1 {
+                border: 5px solid blue;
+                height: 800px;
+                width: 800px;
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+   
+                align-items: center;
+}
+            .parent2{
+                border: 5px solid blue;
+                display: inline-flex;
+                flex-direction: row;
+                width: 800px;
+                flex-flow: nowrap;
+            }
+            .parent2 .box1 {
+                background-color: blue;
+                color: white;
+                width: 100px;
+                height: 50px;
+                text-align: center;
+                vertical-align: middle;
+                padding:10px 5px;
+                font-weight: bold;
+            }
+            .parent3{
+                border: 5px solid blue;
+                display: flex;
+                flex-direction: row;
+                width: 800px;
+                flex-flow: nowrap;
+            }
+            .parent3 .box1 {
+                background-color: blue;
+                color: white;
+                width: 100px;
+                height: 50px;
+                text-align: center;
+                vertical-align: middle;
+                padding:10px 5px;
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="parent3">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+            <div class="box1">7</div>
+            <div class="box1">8</div>
+
+        </div>
+
+
+        <div class ="parent1" style="background-color: antiquewhite;">
+            <div class="b1"><img src="rook.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b2"><img src="strategy.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b1"><img src="game.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b2"><img src="king.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b1"><img src="chess-piece.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b2"><img src="game.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b1"><img src="chess-knight.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b2"><img class="rook" src="rook.png" height="65px" widht="75px" style="padding: 14px;"></div>
+
+            <div class="b2"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b1"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b2"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b1"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b2"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b1"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b2"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b1"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b1"></div>
+
+            <div class="b1"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b2"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b1"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b2"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b1"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b2"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b1"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b2"><img src="pawn-black-silhouette.png" height="65px" widht="75px" style="padding: 13px;"></div>
+
+            <div class="b2"><img src="rook.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b1"><img src="strategy.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b2"><img src="game.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b1"><img src="chess-piece.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b2"><img src="king.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b1"><img src="game.png" height="65px" widht="75px" style="padding: 14px;"></div>
+            <div class="b2"><img src="chess-knight.png" height="65px" widht="75px" style="padding: 13px;"></div>
+            <div class="b1"><img src="rook.png" height="65px" widht="75px" style="padding: 13px;"></div>  
+           </div>
+
+        <div class="parent2">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+            <div class="box1">7</div>
+            <div class="box1">8</div>
+
+        </div>
+    </body>
+</html>

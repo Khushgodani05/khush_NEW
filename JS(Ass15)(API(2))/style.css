@@ -1,0 +1,143 @@
+.type {
+    word-spacing: 20px;
+}
+div {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+.pokeimg,.pimg {
+    height: 300px;
+    width: 300px;
+}
+.section {
+    margin: 10px;
+    display: flex;
+    border-radius: 20px;
+    background-image: url("image.png");
+    
+}
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.pokeid,.pid {
+    background-color: rgb(26, 142, 219);
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 0px;
+    color: white;
+}
+.pokename,.type,.pokeurl,.pname,.ptype,.purl,.pability {
+    color: rgb(181, 67, 67);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pokename,.pname{
+    font-size: 22px;
+}
+.section:hover {
+    box-shadow: lightgray 5px 5px 10px;
+    .pokeid {
+        width: 150px;
+        border: goldenrod solid 3px;
+    }
+}
+.pokeimg:hover {
+    height: 350px;
+    width: 350px;
+}
+.pimg:hover {
+    box-shadow:rgb(210, 52, 52) 1px 1px 10px inset;
+    .search {
+      width: 350px;
+    }
+}
+.search:hover {
+    box-shadow: lightgray 5px 5px 10px;
+    .pid {
+        width: 150px;
+        border: goldenrod solid 3px;
+    }
+}
+#poklogo {
+    height: 100px;
+    width: 150px;
+}
+.navbar {
+    background-color: rgb(210, 52, 52);
+}
+header {
+    display: flex;
+    background-color: rgb(210, 52, 52);
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+input {
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+}
+#search {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#sch  {
+    display: flex;
+    flex-direction: row;
+}
+#search:hover {
+    background-color: rgb(26, 142, 219);
+    color: white;
+    border: goldenrod solid 3px;
+}
+.search {
+    margin: 30px;
+    display: flex;
+    border-radius: 20px;
+    background-image: url("image.png");
+    width: 300px;
+    height: 520px;
+    text-align: center;
+}
+
+#exit {
+    width: 100px;
+    height: 50px;
+}
+.more {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(26, 142, 219);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+#popup {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    background-color: white;
+    color: rgb(210, 52, 52);
+}
+
+@media only screen and (max-width:600px)
+{
+    #sch {
+        width:250px;
+        height: 30px;
+    }
+    .section {
+        width:200px;
+    }
+    .pokeimg {
+        width: 200px;
+    }
+}

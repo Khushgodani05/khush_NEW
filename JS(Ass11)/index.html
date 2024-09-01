@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="external.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body >
+    <div class="main" >
+      <div class="bankname" >KISSAN bank</div>   
+      <div class="secdiv">
+            <h1 id="upi">UPI</h1>
+            <div class="trddiv">
+<button class="button" onclick="upi.showbalance()">Show balance</button>
+<button class="button" onclick="upi.withdrawupimoney()" >Withdraw money</button>
+<button class="button" onclick="upi.depositmoney()">Deposit money</button>
+<button class="button" onclick="upi.showslip()">Show slip</button>
+            </div>
+          </div>
+         <div class="secdiv">
+          <div class="secdiv">
+            <h1 id="cc">Credit Card</h1>
+            <p id="pendingbalance">Credit limit:100000</p>
+            <div class="trddiv">
+<button class="button" onclick="ccard.paybill()" >Pay bill</button>
+<button class="button" onclick="ccard.buyitem()" >Buy</button>
+<button class="button" onclick="ccard.checklimit()">Check limit</button>
+<button class="button" onclick="ccard.showCCbalance()" >Show balance</button>
+<button class="button" onclick="ccard.showccslip()">Show slip</button>
+            
+</div>
+         </div>
+    </div>
+</body>
+</html>

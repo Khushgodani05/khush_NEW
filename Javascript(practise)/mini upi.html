@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            
+       
+    </head>
+    <body>
+        <script>
+    let transaction=0;
+    let open=Number(prompt("Enter your opening balance:"));
+    while(transaction!=4) {
+            
+            transaction = prompt(`1.Deposit
+            2.Withdrawal
+            3.Check balance
+            4.Stop`);
+            
+            if(transaction==1) {
+               let amount=Number(prompt("Enter amount to Deposit:"));
+               open+=amount;
+ 
+            }
+            else if(transaction==2) {
+               let amount=Number(prompt("Enter amount to Withdraw:"));
+               if(open>amount){
+               open-=amount;
+               }
+               else{
+                alert("Dont have insufficient balance.");
+                continue;
+               } 
+
+            }
+            else if(transaction==3)  {
+               alert("your current balance is "+open);
+
+            }
+            else{
+                alert("Exiting.....");
+
+            }
+        } 
+        
+    </script>
+    
+    </body>
+</html>

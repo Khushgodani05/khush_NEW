@@ -1,0 +1,86 @@
+<html >
+    <head>
+        <title>CONTACT</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <style>
+           nav {
+    position: fixed;
+    margin-bottom: 20px;
+    width: 100%;
+ 
+}
+section {
+    margin-top: 50px;
+border-top: 1px solid purple;
+padding-top: 5px;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1 class="head">CONTACT</h1>
+        <nav>
+            <span class="padding"><a href="index.html" target="_self">HOME!</a></span>
+            <span class="padding"><a href="gallery.html">My Gallery!</a></span>
+            
+        </nav>
+       <section>
+        <form>
+            <div>
+                <span class="p1">Name:</span>
+                <input type="text" Placeholder="Enter your name here">
+                </div>
+                <div>
+                <span class="p1">Email:</span>
+                <input type="email" placeholder="Enter your mail id" ></input>
+                </div>
+                <div>
+                <span class="p1">Password:</span>
+                <input type="password" placeholder="Enter your passcode">
+                </div>
+                <div>
+                    <span class="p1">Gender</span>
+                    <input checked type="radio" name="gender" id="g1" value="Male">
+                    <label for="g1">Male</label>
+                    <input type="radio" name="gender" id="g2" value="Female">
+                    <label for="g2">Female</label>
+                </div>
+                <div>
+                    <span class="p1">DOB:</span>
+                    <input type="datetime-local">
+                </div>
+                <div>
+                <span class="p1">Contact:</span>
+                <input type="number" value="9594888876">
+                </div>
+                <div>
+                <u class="p1">Image:</u>
+                <input type="file">
+                </div>
+                <div>
+                    <span class="p1">Contact me:</span>
+                    <select>
+                        <option>Select options</option>
+                        <option selected>Anytime</option>
+                        <option>Morning</option>
+                        <option>Afternoon</option>
+                        <option>Evening</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea rows="5" placeholder="Any comments" cols="50"></textarea>
+                </div>
+                <div>
+                    <span class="p1">Interaction level</span>
+                    <input type="range" max="10" step="2" style="color: purple;">
+                </div>
+                <div>
+                    <button>Submit</button>
+                </div>
+        </form>
+    </section>
+        </body>
+</html>

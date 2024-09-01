@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start page</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .loginpage {
+            display: flex;
+            /* width: 100%; */
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 50px;
+        }
+       img {
+            width: 500px;
+            height: 500px;
+        }
+        #loggin {
+            height: 850px;
+            width: 700px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            /* border-left: 0.1px solid gray; */
+        }
+        #loggin :nth-child(3) {
+            height: 300px;
+          
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-self: center;
+        }
+        #loggin :nth-child(3) input {
+            height: 30px;
+            width: 300px;
+            background-color: white;
+            border-radius: 20px;
+            color: black;
+            border: 2px solid black;
+        }
+         h1 {
+            color: white;
+            background-color: black;
+            font-size: 75px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #heading {
+            color: white;
+            background-color: black;
+            font-size: 35px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            height: 100px; 
+            padding: 10px 10px 10px 0px; 
+        }
+        .log_error {
+            display: none;
+            color: white;
+        }
+        hr {
+            color: white;
+            width: 300px;
+         
+        }
+        #loginbtn {
+            border-radius: 20px;
+            height: 30px;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+        }
+        #create {
+            border-radius: 20px;
+            height: 45px;
+            width: 300px;
+            background-color: rgb(22, 116, 230);
+            color: white;
+            font-size: 20px;
+            padding: 5px;
+        }
+        #logo {
+            height: 850px;
+            width: 630px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="loginpage">
+        <div id="logo">
+            <img src="twitterlogo.png" alt="logo">
+        </div>
+        <div id="loggin">
+            <h1>Make it happen</h1>
+            <span id="heading">Join now.</span>
+            <div>
+                <input type="text" placeholder="login-id">
+                <div class="log_error">Incorrect login-id!!!</div>
+                <input type="password" placeholder="password">
+                <div class="log_error">Incorrect password!!!</div>
+                <button id="loginbtn">Login</button>
+                
+            <hr>
+                <button id="create">create account</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

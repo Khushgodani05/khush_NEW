@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg {
+            background-color: #eee;
+            margin-bottom: 5px;
+        }
+        .item {
+            margin-bottom: 10px;
+        }
+        .error {
+            color: red;
+        }
+        .hide {
+            display: none;
+        }
+        input {
+            /* border: 0px;
+            box-shadow: 5px 5px 5px lightblue; */
+            width: 200px;
+            height: 20px;
+        }
+        form {
+            box-shadow: 5px 5px 5px rgb(0, 166, 255);
+            background-color: lightblue;
+            width: 430px;
+            height: 190px;
+            border:1px solid rgb(0, 106, 255);
+        }
+        body {
+            background-image: url(banking-technology-conceptisometric-illustration-bank-600nw-1945826485.webp);background-repeat: no-repeat;background-size: cover;
+        }
+    </style>
+</head>
+<body border="0px">
+    <div style="text-align: center;background-color: rgb(23, 60, 223);font-size: 50px;color: white;">
+        KISSAN BANK OF INDIA
+    </div>
+    <div  style="display: flex;justify-content: center; align-items: center;height: 800px; border: 0px;">
+        <form style="display: flex; align-items: center;flex-direction: column;">
+            <div class="item" style="margin-top: 20px;">
+                <input name="email" type="text" placeholder="Enter id" />
+                <div class="error hide">OOPS incorrect login-id:(:(</div>
+            </div>
+            
+            <div class="item">
+                <input name="password" type="password" placeholder=" Enter Password" />
+                <div class="error hide">OOPS incorrect password:(:(</div>
+            </div>
+    
+            <button name="khush" type="submit">Login</button>
+        </form>
+       
+    </div>
+    
+    
+    <script src="external.js"></script>   
+</body>
+</html>
