@@ -1,0 +1,74 @@
+#create_main {
+    height: 650px;
+    width: 650px;
+    background-color: black;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    /* border: 0.01px solid gray; */
+    box-shadow: gray 0.5px 0px 2px inset;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: black;
+}
+.create_inp {
+   width: 280px;
+   height: 50px;
+   border-radius: 10px;
+   background-color: black;
+   border: 0.05px solid gray;
+   color: white;
+}
+#DOB {
+    width: 700px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: flex-start;
+ 
+}
+#DOB input {
+    width: 100px;
+    height: 50px; 
+    border-radius: 10px;
+    border: 0.05px solid gray;
+    background-color: black;
+    color: white;
+}
+#create_sign {
+    width: 250px;
+   height: 50px;
+   border-radius: 20px;
+   background-color: rgb(22, 116, 230);
+   border-top: 2px solid gray;
+   color: white;
+   font-size: 20px;
+}
+/* .create_error {
+    display: none;
+} */
+#cancel {
+    width: 45px;
+    height: 45px;
+    background-color: black;
+}
+#exit_img {
+    align-self: flex-start;
+}
+.create_error {
+  color: white;   
+}
+.create {
+        color: white;
+        text-decoration: none;
+    }

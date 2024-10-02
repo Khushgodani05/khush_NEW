@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE ACCOUNT</title>
+    <link rel="stylesheet" href="/css/createaccount.css">
+</head>
+<body>
+    <form id="create_main" action="/createaccount" method="post">
+        <div id="exit_img">
+            <a href="/"><img src="back.png" alt="exit" id="cancel"></a>
+        </div>
+        <form>
+     <div>
+        <input type="text" placeholder="Enter you name" class="create_inp" required  name="name">
+     </div>
+     <div>
+        <input type="text" placeholder="Enter  Username" class="create_inp" required   name="username">
+     </div>
+     <div>
+        <input type="password" placeholder="Enter  password" class="create_inp" required   name="password">
+     </div>
+     <div>
+        <input type="password" placeholder="confirm password" class="create_inp" required name="confirm_password">
+     </div>
+     <div id="DOB">
+        <input type="date" placeholder="day" method="post" required name="DOB"> 
+     </div> 
+     <div class="create_error"><%=error%></div>
+     <button id="create_sign" type="submit" >Sign in</a></button>
+    </form>
+  
+    <script src="public/create.js"></script>
+</body>
+</html>

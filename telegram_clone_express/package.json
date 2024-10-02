@@ -1,8 +1,9 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.3",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "moongose": "^1.0.0"
+    "mongoose": "^8.7.0"
   },
   "name": "telegram_clone_express",
   "version": "1.0.0",

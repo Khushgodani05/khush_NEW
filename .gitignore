@@ -5,4 +5,4 @@ telegram_clone_ejs_2/package-lock.json
 telegram_clone_express/node_modules
 telegram_clone_express/package-lock.json
 mongo_js/package-lock.json
-mongo_js/node_modules
+mongo_js/node_modules 

@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.profile {
+    height: 600px;
+    width: 500px;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray ;
+    border-radius: 5px;
+}
+.profile div img {
+    height: 180px;
+    width: 180px;
+}
+.profile_header {
+    margin-bottom: 20px;
+}
+.profile_info {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+.follow {
+    display: flex;
+    width: 450px;
+    background-color: black;
+    height: 100px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.mains {
+ display: flex;
+ flex-direction: column;
+ width: 100px;
+ align-items: center;
+ justify-content: center;
+ /* flex-wrap: wrap; */
+}
+.mains_num {
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mains_post {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#bio {
+    background-color: black;
+    width: 300px;
+    height: 30px;
+    color: white;
+}
+#profile_exit {
+    height: 50px;
+    width: 50px;
+}
+.prof {
+    align-self: flex-start;
+}
